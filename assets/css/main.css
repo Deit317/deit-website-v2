@@ -1,0 +1,88 @@
+/* RESET */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: unset;
+}
+
+/* IMPORT */
+/* @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'); */
+/* IMPORT */
+
+/* FONT INITIALIZATION BEGIN*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-italic-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-bolditalic-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+    url('../font/montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kingred';
+    src: url('../font/kingred/Kingred.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+/* FONT INITIALIZATION END */
+
+/* GLOBAL STYLE BEGIN*/
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+/* GLOBAL STYLE END*/
+
+/* INTRO BANNER BEGIN */
+.intro__banner {
+    background-image: url(../img/BANNER.jpg);
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+/* INTRO BANNER END */
